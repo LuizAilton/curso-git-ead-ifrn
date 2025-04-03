@@ -1,0 +1,58 @@
+Para a realização da tarefa foi utilizado o Git Bash.
+
+Foi criado um diretório chamado 14-CursoGit com o seguinte path:
+C:\Users\LuizAilton\Desktop\TSI\14-CursoGIT
+
+
+No Git Bash, estando o prompt no diretório 14-CursoGit, foi executado os seguintes comandos:
+
+1- Configurar o user.name e o user.mail locais
+	git config user.name = 'Luiz Ailton'
+	git config user.mail = 'luiz.souza.x@hotmail.com'
+
+2- Inicializar o repositório local na branch main
+	git init -b main
+
+3- Criar um arquivo de texto contendo o nome e a matrícula do aluno
+	Foi criado o arquivo Meus_Dados_do_Curso_Git.txt
+
+3- Verificar o status do repositório em relação aos arquivos
+	git status
+	Mensagem: no changes added to commit (Nenhuma alteração para commit)
+
+4- Adicionar arquivos para commit
+	git add Meus_Dados_do_Curso_Git.txt
+
+5- Verificar o status do repositório em relação aos arquivos
+	git status
+	Mensagem: Changes to be committed: new file: Meus_Dados_do_Curso_Git.txt
+
+6- Executar o primeiro commit
+	git commit -m 'Primeiro commit: arquivo de texto contendo nome e matrícula do aluno'
+
+7- Abrir o github. Nessa caso, usarei uma conta já cadastrada no github.
+
+8- Criar um repositório remoto público vazio com o nome curso-git-ead-ifrn
+
+9- Adicionar um repositório remoto ao repositório local
+	git remote add origin https://github.com/LuizAilton/curso-git-ead-ifrn.git
+
+10- Enviar as alterações do repositório local para o repositório remoto chamado origin, na branch main
+	git push -u origin main
+
+11- Criar um arquivo de texto contendo a lista de comandos utilizados para realizar a tarefa
+	Foi criado o arquivo Lista_de_Comandos_Utilizados.txt (este arquivo)
+
+12- Adicionar o arquivo Lista_de_Comandos_Utilizados.txt para commit
+	git add Lista_de_Comandos_Utilizados.txt
+
+13- Executar o segundo commit
+	git commit -m 'Segundo commit: arquivo de texto contendo os comandos utilizados na tarefa 1'
+
+14- Enviar as alterações do repositório local para o repositório remoto
+	git push
+
+
+
+
+
